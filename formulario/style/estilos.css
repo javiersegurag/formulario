@@ -1,0 +1,45 @@
+.titulo {
+    color: rgb(206, 113, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36px;
+    align-items: left;
+}
+.logo {
+    max-width: 25%;
+    margin: 0 auto;
+    padding-left: 30rem;
+}
+.campof {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.campo {
+    padding-bottom: 1rem;
+}
+.forma-ficha {
+    background-color: rgb(44, 70, 70);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    padding: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    margin: 0 auto;
+    max-width: 500px;
+}
+.boton-enviar {
+    background-color: rgb(206, 113, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 1rem;
+    font-weight: bold;
+    border-color: darkorange;
+    padding: .5rem;
+    margin-left: 30em;
+
+}
+.campo_text {
+    border-radius: .5rem;
+    background-color: whitesmoke;
+    border-color: darkgoldenrod;
+}

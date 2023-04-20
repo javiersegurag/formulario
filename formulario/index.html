@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Ficha UICSLP U.A Tamuin</title>
+    <link href="style/estilos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagenes/logo uicslp.jpg">
+    </header>
+    <main id="contenido">
+        <form class="forma-ficha">
+            <label class="titulo"> Formulario de Pre-Inscripción</label>
+            <label class="present"> Por favor llene los datos correctamente para generar su ficha de pre-inscripción </label>
+            <div class="campof">
+                <label class="campo__eti" for="nombre"> Nombre del Candidato: </label>
+                <input class="campo_text" type="text" placeholder="Nombre Completo" id="nombre">
+            </div>
+            <div class="campo">
+                <label class="campo__eti" for="cup"> CURP: </label>
+                <input class="campo_text" type="text" placeholder="CURP" id="curp">
+            </div>
+            <div class="campo">
+                <label class="campo__eti" for="correo"> Correo Electronico: </label>
+                <input class="campo_text" type="email" placeholder="Correo Electronico" id="correo">
+            </div>
+            <div class="campo">
+                <label class="campo__eti" for="telefono"> Telefono de Contacto: </label>
+                <input class="campo_text" type="tel" placeholder="Telefono de Contacto" id="telefono">
+            </div>
+            <div class="campo">
+                <label class="campo__eti" for="esc_proced"> Escuela de Procedencia: </label>
+                <select class="campo_select" id="escuelas">
+                </select>
+            </div>
+
+            <div class="campo">
+                <label class="campo__eti" for="carrera"> Selecciona Carrera: </label>
+                <select class="campo_select" id="carreras">
+                </select>
+            </div>
+
+            <div class="campo">
+                <label class="campo__eti" for="cup"> Promedio Anterior: </label>
+                <input class="campo_text" type="text" placeholder="Promedio" id="promedio">
+            </div>
+            <div>
+                <input type="submit" value="Generar Ficha" class="boton-enviar">
+            </div>
+        </form>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
